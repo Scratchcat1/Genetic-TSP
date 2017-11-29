@@ -1,6 +1,8 @@
 # Genetic-TSP
 A genetic algorithm to find solutions to the Travelling Salesman Problem (TSP)
 
+![Alt_Text](https://github.com/Scratchcat1/Genetic-TSP/blob/master/graph.png)
+
 Running:
 ```
 p = TestSetup()
