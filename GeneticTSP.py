@@ -1,6 +1,6 @@
 import random,copy
 
-def Mutate(Gene,count=2):
+def Mutate(Gene,count=1):
     for n in range(count):
         a = random.randint(0,len(Gene)-1)
         b = random.randint(0,len(Gene)-1)
@@ -100,7 +100,7 @@ class Population:
         self.GenePool = []
         while len(self.GenePool) < Population_Size-1:
             GeneA,GeneB = random.choice(Fittest),random.choice(Fittest)
-            NewGeneA = Cross(GeneA,GeneB,2,4)
+            NewGeneA = Cross(GeneA,GeneB,1,4)
             NewGeneB = Mutate(copy.deepcopy(NewGeneA))
             #print(Measure(self.graph,copy.deepcopy(NewGeneA)),Measure(self.graph,copy.deepcopy(NewGeneB)),NewGeneB == NewGeneA, BestGene in [NewGeneB,NewGeneA])
             self.GenePool.append(NewGeneA)
