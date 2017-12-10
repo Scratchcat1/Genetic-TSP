@@ -33,3 +33,4 @@ population.Evolve(Pass_Mark,results,New_Population_Size) # Where Pass_Mark is th
 population.Add_Gene(Gene) # Optional
 
 ```
+It is recommended to use a smaller population size and a high generations count in order to converge on the solution in a shorter period of time. The closer one wants to get to the optimum the larger the population should be however, as smaller populations tend to get stuck in local minima.
