@@ -1,7 +1,11 @@
 # Genetic-TSP
 A genetic algorithm to find solutions to the Travelling Salesman Problem (TSP)
 
+Cost over many generations:
 ![Alt_Text](https://github.com/Scratchcat1/Genetic-TSP/blob/master/graph.png)
+
+Comparison of Gene pool sizes:
+![Alt_Text](https://github.com/Scratchcat1/Genetic-TSP/blob/master/GeneticTSP_Gene_Number.png)
 
 Running:
 ```
